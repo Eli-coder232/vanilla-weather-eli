@@ -20,7 +20,107 @@
   </head>
   <body>
     <div class="container">
-      <h1>Weather App</h1>
+      <div class="row">
+        <div class="col-10">
+          <div class="card">
+            <span class="border border-4">
+              <div class="card-body">
+                <form id="search-form">
+                  <i class="fa-solid fa-magnifying-glass glass-icon"></i>
+                  <input
+                    type="text"
+                    id="search-city-input"
+                    placeholder="Search for city"
+                  />
+                  <input type="submit" value="Search" />
+                </form>
+                <div class="row">
+                  <div class="col">
+                    <span class="current-city"> <h1>Cologne</h1></span>
+                    <span class="current-date">
+                      <p id="date">Sunday, 17:00</p>
+                    </span>
+                    <span class="current-weather"><p>Cloudy</p></span>
+                  </div>
+                  <div class="col">
+                    <span class="current-temperature" id="temperature">3</span>
+                    <span class="units">
+                      <p id="celsius">°C</p>
+                    </span>
+                    <i class="fa-solid fa-cloud cloud-icon-current"></i>
+                  </div>
+                  <div class="col">
+                    <span class="precipitation">
+                      <p>Precipitation 85%</p>
+                    </span>
+                    <span class="humidity">
+                      <p>Humidity 81%</p>
+                    </span>
+                    <span class="wind">
+                      <p>Wind 40 km/h</p>
+                    </span>
+                  </div>
+
+                  <div class="weekly-forecast">
+                    <span class="forecast-week">
+                      <h2>Forecast for 5 days</h2>
+                    </span>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <span class="day">
+                        <p>Monday</p>
+                        <i
+                          class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"
+                        ></i>
+                      </span>
+                      <span class="temp-high-low">
+                        <p>5° 3°</p>
+                      </span>
+                    </div>
+                    <div class="col">
+                      <span class="day">
+                        <p>Tuesday</p>
+                        <i class="fa-solid fa-cloud cloud-icon"></i>
+                      </span>
+                      <span class="temp-high-low">
+                        <p>5° 0°</p>
+                      </span>
+                    </div>
+                    <div class="col">
+                      <span class="day">
+                        <p>Wednesday</p>
+                        <i class="fa-solid fa-cloud cloud-icon"></i>
+                      </span>
+                      <span class="temp-high-low">
+                        <p>4° -1°</p>
+                      </span>
+                    </div>
+                    <div class="col">
+                      <span class="day">
+                        <p>Thursday</p>
+                        <i class="fa-solid fa-cloud cloud-icon"></i>
+                      </span>
+                      <span class="temp-high-low">
+                        <p>4° 0°</p>
+                      </span>
+                    </div>
+                    <div class="col">
+                      <span class="day">
+                        <p>Friday</p>
+                        <i class="fa-solid fa-cloud cloud-icon"></i>
+                      </span>
+                      <span class="temp-high-low">
+                        <p>4° 0°</p>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
