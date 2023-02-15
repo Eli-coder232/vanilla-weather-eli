@@ -1,0 +1,154 @@
+body {
+  padding: 20px;
+}
+
+div {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.container {
+  font-family: "Roboto Mono", monospace;
+}
+
+.card-body .btn {
+  background: #ececec;
+  border: none;
+  height: 40px;
+}
+
+.card-body #search-city-input {
+  height: 40px;
+}
+
+.current-city h1 {
+  color: #142d4c;
+  font-size: 30px;
+  padding: 15px 0 0;
+  font-family: "Roboto Mono", monospace;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+#date {
+  font-size: 14px;
+  color: #385170;
+  margin-bottom: 5px;
+}
+
+.current-weather {
+  font-size: 14px;
+  color: #385170;
+  text-transform: capitalize;
+}
+
+.current-temperature {
+  position: relative;
+  top: 20px;
+  right: 220px;
+  color: #142d4c;
+  font-size: 60px;
+}
+
+#celsius {
+  font-size: 24px;
+  position: relative;
+  top: -56px;
+  right: 155px;
+}
+
+.cloud-icon-current {
+  font-size: 40px;
+  position: relative;
+  right: 96px;
+  bottom: 94px;
+  color: #bcbaba;
+  text-shadow: 2px 3px 5px rgb(39, 38, 38);
+}
+
+.precipitation p {
+  font-size: 14px;
+  padding-top: 22px;
+  margin: 0;
+  color: #142d4c;
+}
+
+.humidity p {
+  font-size: 14px;
+  color: #385170;
+  margin-top: 61px;
+  margin-bottom: 5px;
+  position: relative;
+  left: -150px;
+}
+
+.wind p {
+  font-size: 14px;
+  color: #385170;
+  position: relative;
+  left: -150px;
+}
+
+.temperature-flow p {
+  padding: 25px 0 8px;
+  color: #142d4c;
+}
+
+.flow-chart p {
+  font-size: 12px;
+  color: #3e4a61;
+  padding: 0 0 30px;
+}
+
+.forecast-week h2 {
+  font-size: 24px;
+  color: #142d4c;
+  padding-top: 30px;
+}
+
+.day p {
+  font-size: 18px;
+  color: #385170;
+  padding-top: 10px;
+}
+
+.cloud-icon {
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  left: 25px;
+  color: #bcbaba;
+  text-shadow: 2px 3px 5px rgb(39, 38, 38);
+}
+
+.cloud-rain-icon {
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  left: 25px;
+  color: #a09e9e;
+  text-shadow: 2px 2px 2px rgb(39, 38, 38);
+}
+
+.temp-high-low p {
+  font-size: 16px;
+  padding: 20px;
+  color: #118a7e;
+}
+
+.link {
+  font-size: 12px;
+  position: relative;
+  left: 100px;
+  color: #142d4c;
+}

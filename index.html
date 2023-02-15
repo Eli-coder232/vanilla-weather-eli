@@ -16,6 +16,20 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/16ec8f706d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Your Weather Forecast</title>
   </head>
   <body>
@@ -32,7 +46,7 @@
                     id="search-city-input"
                     placeholder="Search for city"
                   />
-                  <input type="submit" value="Search" />
+                  <input type="submit" class="btn btn-light" value="Search" />
                 </form>
                 <div class="row">
                   <div class="col">
@@ -43,16 +57,6 @@
                     <span class="current-weather"><p>Cloudy</p></span>
                   </div>
                   <div class="col">
-                    <span class="current-temperature" id="temperature">3</span>
-                    <span class="units">
-                      <p id="celsius">°C</p>
-                    </span>
-                    <i class="fa-solid fa-cloud cloud-icon-current"></i>
-                  </div>
-                  <div class="col">
-                    <span class="precipitation">
-                      <p>Precipitation 85%</p>
-                    </span>
                     <span class="humidity">
                       <p>Humidity 81%</p>
                     </span>
@@ -60,7 +64,13 @@
                       <p>Wind 40 km/h</p>
                     </span>
                   </div>
-
+                  <div class="col">
+                    <span class="current-temperature" id="temperature">3</span>
+                    <span class="units">
+                      <p id="celsius">°C</p>
+                    </span>
+                    <i class="fa-solid fa-cloud cloud-icon-current"></i>
+                  </div>
                   <div class="weekly-forecast">
                     <span class="forecast-week">
                       <h2>Forecast for 5 days</h2>
@@ -121,6 +131,16 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="link">
+      <a
+        class="link-success"
+        href="https://github.com/Eli-coder232/elis-weather-app"
+        target="_blank"
+      >
+        Open Source Code
+      </a>
+      by Elisabeth Iwanski
     </div>
     <script src="src/app.js"></script>
   </body>
